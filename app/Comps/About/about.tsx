@@ -15,8 +15,8 @@ export default function About() {
                             <div className="w-16 h-0.5 bg-gray-900" />
                         </div>
                         <h2 className="text-4xl font-semibold text-gray-900 max-w-3xl">
-                            "We're one of the best furniture agency. Prioritizing customers and making purchases easy are the
-                            hallmarks of our agency."
+                            &ldquo;We&rsquo;re one of the best furniture agency. Prioritizing customers and making purchases easy are the
+                            hallmarks of our agency.&rdquo;
                         </h2>
                     </div>
 
