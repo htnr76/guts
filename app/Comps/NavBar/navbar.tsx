@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import Link from "next/link"
 import { Menu } from "lucide-react"
 import { Button } from "@/x/components/ui/button"
 import logo from '@/x/public/assets/logo.png'
