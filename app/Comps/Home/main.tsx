@@ -5,8 +5,10 @@ import Product from "./product";
 import Services from "./services";
 
 export default function HomeMain() {
+
     return (
         <>
+            {/*Все компоненты для главной страницы*/}
             <Hero />
             <About />
             <Services />

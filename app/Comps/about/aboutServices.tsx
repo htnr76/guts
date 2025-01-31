@@ -2,17 +2,18 @@ export default function AboutServices() {
     const services = [
         {
             id: 1,
-            title: "High Quality",
+            title: "* High Quality",
             content: "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
         },
+
         {
             id: 2,
-            title: "Professional Designer",
+            title: "* Professional Designer",
             content: "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
         },
         {
             id: 3,
-            title: "The Best Services",
+            title: "* The Best Services",
             content: "Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations."
         },
     ]

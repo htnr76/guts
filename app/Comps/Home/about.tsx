@@ -8,10 +8,11 @@ export default function About() {
         <div className="bg-white">
             <section className="container mx-auto px-4 py-16 max-w-7xl">
                 <div className="space-y-16">
-                    {/* Header */}
+                    {/*Секция с заголовком и изображением*/}
                     <div className="space-y-4">
                         <div className="flex flex-col gap-2">
                             <h1 className="text-2xl font-bold text-gray-900">About</h1>
+
                             <div className="w-16 h-0.5 bg-gray-900" />
                         </div>
                         <h2 className="text-4xl font-semibold text-gray-900 max-w-3xl">
@@ -20,10 +21,11 @@ export default function About() {
                         </h2>
                     </div>
 
-                    {/* Content Grid */}
+                    {/*Секция с сеткой*/}
                     <div className="grid lg:grid-cols-2 gap-8">
                         <div className="relative aspect-[16/10] w-full">
                             <Image
+
                                 src={chairs}
                                 alt="Modern kitchen interior with dining table"
                                 fill

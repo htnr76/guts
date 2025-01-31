@@ -4,6 +4,7 @@ import { Button } from "@/x/components/ui/button";
 export default function Material() {
     return (
         <div>
+            {/*Секция с заголовком и изображением*/}
             <section className="container mx-auto px-4 py-16 max-w-7xl">
                 <div className="space-y-16">
                     <div className="space-y-4">
@@ -25,10 +26,12 @@ export default function Material() {
                             </div>
 
                             <div className="w-1/2">
+                                {/*Секция с изображением*/}
                                 <Image
                                     src={wood || "/placeholder.svg"}
                                     alt="Sofa"
                                     className="w-full h-auto"
+
                                 />
                             </div>
                         </div>

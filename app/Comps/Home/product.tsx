@@ -6,6 +6,7 @@ import {
 } from "@/x/components/ui/accordion"
 
 export default function Product() {
+    {/*Секция с аккордионами*/}
     const accInfo = [
         {
             id: 1,
@@ -31,7 +32,7 @@ export default function Product() {
 
     return (
         <>
-
+            {/*Секция с заголовком и изображением*/}
 
             <section className="container mx-auto px-4 py-16 max-w-7xl">
                 <div className="space-y-16">
@@ -56,6 +57,7 @@ export default function Product() {
                     <section>
                         <div className="w-full">
                             <Accordion type="multiple" className="w-full space-y-4">
+                                {/*Секция с аккордионами*/}
                                 {accInfo.map((item) => (
                                     <AccordionItem key={item.id} value={item.id.toString()} className="border p-4">
                                         <AccordionTrigger className="font-bold text-xl">

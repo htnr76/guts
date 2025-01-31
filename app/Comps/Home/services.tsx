@@ -9,7 +9,7 @@ import soffa from "@/x/public/assets/soffa.png";
 
 export default function Services() {
 
-
+  {/*Секция с аккордионами*/}
   const accInfo = [
     {
       id: 1,
@@ -48,6 +48,7 @@ export default function Services() {
                   fulfill your expectations.
                 </p>
                 <Accordion type="multiple" className="w-full space-y-4">
+                  {/*Секция с аккордионами*/}
                   {accInfo.map((item) => (
                     <AccordionItem key={item.id} value={item.id.toString()} className="border p-4">
                       <AccordionTrigger className="font-bold text-xl">
@@ -61,7 +62,9 @@ export default function Services() {
                 </Accordion>
               </div>
               <div className="w-1/2">
+                {/*Секция с изображением*/}
                 <Image
+
 
                   src={soffa || "/placeholder.svg"}
                   alt="Sofa"

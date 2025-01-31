@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <>
 
-            {/*Heading*/}
+            {/*Секция с заголовком и изображением*/}
             <section>
                 <div className="container mx-auto px-4 py-12">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -31,18 +31,20 @@ export default function Hero() {
                 </div>
             </section>
 
-            {/*Counter and stats section*/}
+            {/*Секция с счетчиком и статистикой*/}
             <section className="container mx-auto mt-24 relative">
                 <div className="relative">
                     <Image
+
                         src={whiteCounter || "/placeholder.svg"}
                         alt="hero"
                         className="mx-auto max-w-screen-xl max-h-[513px] w-full h-auto object-cover"
                     />
-                    {/*Blue overlay with stats*/}
+                    {/*Синяя заливка с цифрами*/}
                     <ProjectsCounter />
                 </div>
             </section>
+
         </>
 
     )
