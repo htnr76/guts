@@ -1,16 +1,10 @@
-import Hero from "./Comps/Hero/hero";
-import About from "./Comps/About/about";
-import Services from "./Comps/Services/services";
-import Product from "./Comps/product";
-import Material from "./Comps/material";
+import HomeMain from "./Comps/Home/main";
+import NavBar from "./Comps/NavBar/navbar";
+
 export default function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Services />
-      <Product />
-      <Material />
+      <NavBar />
     </>
   )
 }
